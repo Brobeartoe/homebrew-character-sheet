@@ -1,0 +1,16 @@
+# Ignore everything by default, but search all folders
+*
+!/*
+
+# Don't ignore
+!*.css
+!*.html
+!*.json
+!*.md
+!*.ts
+!yarn.lock
+
+# Always ignore
+.cache
+dist
+node_modules
